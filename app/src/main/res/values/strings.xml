@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Open-Library-Android</string>
+
+    <!-- Shared -->
+    <string name="shared_close">Close</string>
+    <string name="shared_dismiss">Dismiss</string>
+    <string name="shared_retry">Retry</string>
+    <string name="shared_error_with_message">Error: %1$s</string>
+    <string name="shared_loading_book_details">Loading book details...</string>
+    <string name="shared_error_network">You are offline or the network is unstable.</string>
+    <string name="shared_error_http">Server error</string>
+    <string name="shared_error_serialization">Received unexpected data.</string>
+    <string name="shared_error_unknown">Something went wrong.</string>
+
+    <!-- Books -->
+    <string name="books_details_title">Book Details</string>
+    <string name="books_cover_content_description">Book cover: %1$s</string>
+    <string name="books_by_authors">By: %1$s</string>
+    <string name="books_published_year">Published: %1$s</string>
+    <string name="books_published_year_int">Published: %1$d</string>
+    <string name="books_description">Description</string>
+    <string name="books_subjects">Subjects</string>
+
+    <!-- Search -->
+    <string name="search_field_label">Search books...</string>
+    <string name="search_field_placeholder">Enter book title, author, etc.</string>
+    <string name="search_button">Search</string>
+    <string name="search_empty_title">Search for books</string>
+    <string name="search_empty_subtitle">Enter a search query above to find books</string>
+    <string name="search_no_results_title">No books found</string>
+    <string name="search_no_results_subtitle">Try a different search query</string>
+    <string name="search_failed_to_load">Failed to load books</string>
+    <string name="search_failed_to_load_more">Failed to load more books</string>
+</resources>
