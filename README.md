@@ -10,28 +10,18 @@ An Android application that allows users to search and browse books from the Ope
 - 🎨 Modern Material 3 UI with Jetpack Compose
 - 🌐 Real-time data from Open Library API
 
-## Technologies Used
+## Technologies
 
-### Core
 - **Kotlin** - Modern, concise programming language
 - **Jetpack Compose** - Declarative UI toolkit
 - **Material 3** - Latest Material Design components
-
-### Architecture & State Management
-- **MVVM (Model-View-ViewModel)** - Separation of concerns
 - **StateFlow** - Reactive state management with Kotlin Coroutines
 - **ViewModel** - Lifecycle-aware state management
-
-### Dependency Injection
 - **Hilt** - Dependency injection framework built on top of Dagger
-
-### Networking
 - **Retrofit** - Type-safe HTTP client
 - **RxJava 3** - Reactive programming for API calls
 - **OkHttp** - HTTP client with logging interceptor
 - **Moshi** - JSON serialization/deserialization
-
-### Data & Caching
 - **Jetpack Paging 3** - Pagination library with RxJava integration
 - **Coil** - Image loading library
 
@@ -46,7 +36,7 @@ An Android application that allows users to search and browse books from the Ope
 
 ## Architecture
 
-This project follows **Clean Architecture** principles with clear separation of concerns across three main layers:
+This project follows **Clean Architecture** principles with **MVVM** & clear separation of concerns across three main layers:
 
 ### Presentation Layer
 - **Views**: Jetpack Compose screens and components
@@ -153,49 +143,6 @@ app/src/
 └── androidTest/        # UI/Instrumented tests (2 test files)
     └── presentation/  # UI component tests
 ```
-
-## Setup
-
-### Prerequisites
-- Android Studio Hedgehog or later
-- JDK 11 or higher
-- Android SDK (API 28+)
-- An Android device or emulator with internet connection
-
-### Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/Open-Library-Android.git
-cd Open-Library-Android
-```
-
-2. Open the project in Android Studio
-
-3. Sync Gradle files and wait for dependencies to download
-
-4. Run the app on an emulator or physical device
-
-### Running Tests
-
-**Unit Tests:**
-```bash
-./gradlew test
-```
-
-**UI Tests:**
-```bash
-./gradlew connectedAndroidTest
-```
-
-**All Tests:**
-```bash
-./gradlew test connectedAndroidTest
-```
-
-## API
-
-This app uses the [Open Library API](https://openlibrary.org/developers/api) - a free, open-source library catalog.
 
 ## License
 
