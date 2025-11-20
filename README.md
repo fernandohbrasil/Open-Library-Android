@@ -136,11 +136,11 @@ The project includes comprehensive test coverage across both unit and UI tests:
 
 ```
 app/src/
-├── test/               # Unit tests (14 test files)
+├── test/              # Unit tests (14 test files)
 │   ├── data/          # Data layer tests
 │   ├── domain/        # Domain layer tests
 │   └── presentation/  # Presentation layer tests
-└── androidTest/        # UI/Instrumented tests (2 test files)
+└── androidTest/       # UI/Instrumented tests (2 test files)
     └── presentation/  # UI component tests
 ```
 
